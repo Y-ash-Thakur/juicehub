@@ -4,7 +4,7 @@ const Features = () => {
   return (
     <section className="bg-white text-center py-16 px-6" style={{ backgroundColor: 'white', textAlign: 'center', padding: '64px 24px' }}>
       <h2 className="text-green-700 text-2xl font-semibold mb-2" style={{ color: '#047857', fontSize: '24px', fontWeight: '600', marginBottom: '8px' }}>
-        Nature's Goodness in Every Sip!
+        Nature&#39;s Goodness in Every Sip!
       </h2>
       <p className="max-w-xl mx-auto mb-10 text-gray-600" style={{ maxWidth: '576px', margin: '0 auto 40px', color: '#6b7280' }}>
         At Zussioberry, we believe in keeping it real — no artificial flavors, no chemicals, just
