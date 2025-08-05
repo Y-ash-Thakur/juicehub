@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function AboutSection() {
   return (
-    <section className="w-full bg-white py-12 px-4 md:px-10 border-#047857">
+    <section className="w-full bg-white py-12 px-4 md:px-10 ">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
         {/* Left Top - Fruit Image */}
         <div className="flex justify-center">
@@ -49,7 +49,7 @@ export default function AboutSection() {
           <div className="grid grid-cols-2 gap-4">
             <div className="bg-gray-100 rounded-lg p-4 flex flex-col items-center">
               <Image
-                src="/assets/images/juice.png"
+                src="/fruit-juice-icon.png"
                 alt="Juice"
                 width={50}
                 height={50}
@@ -58,7 +58,7 @@ export default function AboutSection() {
             </div>
             <div className="bg-gray-100 rounded-lg p-4 flex flex-col items-center">
               <Image
-                src="/assets/images/icecream.png"
+                src="/ice-cream-icon.png"
                 alt="Ice Cream"
                 width={50}
                 height={50}
@@ -67,7 +67,7 @@ export default function AboutSection() {
             </div>
             <div className="bg-gray-100 rounded-lg p-4 flex flex-col items-center">
               <Image
-                src="/assets/images/falooda.png"
+                src="/falooda-icon.png"
                 alt="Falooda"
                 width={50}
                 height={50}
@@ -76,7 +76,7 @@ export default function AboutSection() {
             </div>
             <div className="bg-gray-100 rounded-lg p-4 flex flex-col items-center">
               <Image
-                src="/assets/images/milkshake.png"
+                src="/milkshake-icon.png"
                 alt="Milkshake"
                 width={50}
                 height={50}
